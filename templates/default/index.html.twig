@@ -1,10 +1,22 @@
-<!doctype html>
+{# <!doctype html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
    <title>Wild series</title>
 </head>
 <body>
-   <h1>{{ website }} Bienvenue</h1>
+   <h1>{{ website }} Bienvenue !</h1>
 </body>
-</html>
+</html> #}
+
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Wild Series{% endblock %}
+
+
+{% block body %}
+
+<h1>{{ website }} Welcome !</h1>
+
+{% endblock %}
