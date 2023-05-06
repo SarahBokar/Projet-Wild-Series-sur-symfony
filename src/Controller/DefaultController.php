@@ -14,6 +14,6 @@ Class DefaultController extends AbstractController
         // return new Response(
         //     '<!doctype html><html lang="en"><title>Wild Series</title><body>Wild Series Index</body></html>'
         // );
-        return $this->render('default/index.html.twig', ['website'=>'welcom']);
+        return $this->render('default/index.html.twig', ['website'=>'welcome']);
     }
 }
