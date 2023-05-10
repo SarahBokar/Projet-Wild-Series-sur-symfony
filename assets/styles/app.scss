@@ -1,5 +1,42 @@
+
+@import"custom.scss";
+@import"~bootstrap/scss/bootstrap";
+
 body {
-    background-color: rgb(11, 7, 240);
+    background-color: #010101;
+
 }
 
+.footer {
+    background-color: black;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.collapse {
+    padding-top: 2rem;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.secondsection-left {
+    max-width: 50%;
+    height: auto;
+}
+.secondsection-right {
+    max-width: 50%;
+    height: auto;
+}
+
+.button {
+    color: #F79F3A;
+}
 
